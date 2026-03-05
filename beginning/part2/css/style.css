@@ -17,9 +17,10 @@ ul {
     list-style: none;
 }
 
-nav {
-    padding: 10px;
-    margin-bottom: 2em;
+/* Header/Nav */
+
+header {
+    margin: 1px 110px 0px 95px;
 }
 
 nav img {
@@ -31,6 +32,7 @@ nav ul{
     align-items: center;
     justify-content: flex-end;
     gap: 1em;
+    padding: 0 50px;
 }
 
 nav li:first-child {
@@ -42,3 +44,92 @@ nav li:first-child {
     border-radius: 10px;
     padding: 5px 10px;
 }
+
+/* Hero Section */
+
+.hero {
+    background-color: #ffcf83;
+    padding: 40px 155px 40px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero article {
+    width: 550px;
+    margin: 10px 2px;
+    gap: 1em;
+}
+
+.hero img{
+    margin-left: auto;
+}
+
+/* Features */
+
+.features h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.feature_box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.feature_box div {
+    background-color: #fff;
+    width: 350px;
+    padding: 20px 5px 0 5px;
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Testimonials */
+
+.testimonials {
+    background-color: #222e50;
+    padding-bottom: 20px;
+}
+
+.testimonials h2 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.testimonial_box {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonial_box div {
+    background-color: #fff;
+    width: 330px;
+    padding: 10px 15px;
+    margin: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Out Team */
+
+/* Adjust margins and padding on sides to follow grid lines */
