@@ -20,7 +20,7 @@ ul {
 /* Header/Nav */
 
 header {
-    margin: 1px 110px 0px 95px;
+    margin: 1px 125px 0px 140px;
 }
 
 nav img {
@@ -49,7 +49,7 @@ nav li:first-child {
 
 .hero {
     background-color: #ffcf83;
-    padding: 40px 155px 40px 150px;
+    padding: 40px 175px 40px 190px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -130,6 +130,25 @@ nav li:first-child {
     justify-content: space-around;
 }
 
-/* Out Team */
+/* Our Team */
 
-/* Adjust margins and padding on sides to follow grid lines */
+.team h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.team ul {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    margin: 0 90px 0 120px;
+    gap: 1px;
+}
+
+.team ul div {
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    /* text-align: center; */
+    /* align-items: center; */
+}
