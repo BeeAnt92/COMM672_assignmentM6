@@ -20,7 +20,7 @@ ul {
 /* Header/Nav */
 
 header {
-    margin: 1px 125px 0px 140px;
+    margin: 1px 130px 0px 135px;
 }
 
 nav img {
@@ -49,7 +49,7 @@ nav li:first-child {
 
 .hero {
     background-color: #ffcf83;
-    padding: 40px 175px 40px 190px;
+    padding: 40px 135px 40px 155px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -57,19 +57,19 @@ nav li:first-child {
 
 .hero article {
     width: 550px;
-    margin: 10px 2px;
+    margin: 10px 30px;
     gap: 1em;
 }
 
 .hero img{
     margin-left: auto;
+    margin-right: 50px;
 }
 
 /* Features */
 
 .features h2 {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: 25px;
     margin-bottom: 5px;
@@ -132,23 +132,52 @@ nav li:first-child {
 
 /* Our Team */
 
-.team h2 {
+.team h2{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
-.team ul {
+.team_items {
     display: flex;
-    justify-content: space-around;
-    padding-left: 0;
-    margin: 0 90px 0 120px;
-    gap: 1px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    padding: 0px 120px 30px 120px;
 }
 
-.team ul div {
+.team_items img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.team_items p {
+    margin: 0;
+}
+
+.team_items div {
+    /* margin-right: 40px; */
+    width: 230px;
+    gap: 100px;
+}
+
+.team_items div:first-of-type{
+    padding-left: 30px;
+}
+
+/* Contact us */
+
+footer {
+    background-color: #d3d3d3;
     display: flex;
-    justify-content:space-evenly;
     flex-direction: column;
-    /* text-align: center; */
-    /* align-items: center; */
+    align-items: center;
+    text-align: center;
+    padding: 35px;
+}
+
+footer img {
+    width: 35px;
+    padding-bottom: 20px;
 }
